@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ParcialZ.Models
+namespace Party.Models
 {
     public class EditTicketViewModel
     {

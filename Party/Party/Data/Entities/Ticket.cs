@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ParcialZ.Data.Entities
+namespace Party.Data.Entities
 {
     public class Ticket
     {

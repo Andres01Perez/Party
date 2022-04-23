@@ -1,4 +1,4 @@
-namespace ParcialZ.Models
+namespace Party.Models
 {
     public class ErrorViewModel
     {

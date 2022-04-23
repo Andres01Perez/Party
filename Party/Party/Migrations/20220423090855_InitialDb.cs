@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ParcialZ.Migrations
+namespace Party.Migrations
 {
     public partial class InitialDb : Migration
     {

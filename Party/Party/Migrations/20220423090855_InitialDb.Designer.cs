@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ParcialZ.Data;
+using Party.Data;
 
 #nullable disable
 
-namespace ParcialZ.Migrations
+namespace Party.Migrations
 {
     [DbContext(typeof(DataContext))]
     [Migration("20220423090855_InitialDb")]

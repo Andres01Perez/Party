@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ParcialZ.Data;
-using ParcialZ.Data.Entities;
-using ParcialZ.Helpers;
-using ParcialZ.Models;
+using Party.Data;
+using Party.Data.Entities;
+using Party.Helpers;
+using Party.Models;
 
-namespace ParcialZ.Controllers
+namespace Party.Controllers
 {
     public class TicketController : Controller
     {

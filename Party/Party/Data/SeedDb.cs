@@ -1,6 +1,6 @@
-﻿using ParcialZ.Data.Entities;
+﻿using Party.Data.Entities;
 
-namespace ParcialZ.Data
+namespace Party.Data
 {
 
     public class SeedDb

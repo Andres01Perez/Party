@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ParcialZ.Data;
-using ParcialZ.Data.Entities;
+using Party.Data;
+using Party.Data.Entities;
 
-namespace ParcialZ.Helpers
+namespace Party.Helpers
 {
     public class CombosHelper : ICombosHelper
     {
@@ -49,7 +49,7 @@ namespace ParcialZ.Helpers
                 .OrderBy(c => c.Text)
                 .ToList();
 
-            list.Insert(0, new SelectListItem { Text = "[Seleccione una categoría...", Value = "0" });
+            list.Insert(0, new SelectListItem { Text = "[Seleccione una entrada...", Value = "0" });
             return list;
         }
     }

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ParcialZ.Models;
+using Party.Models;
 using System.Diagnostics;
 
-namespace ParcialZ.Controllers
+namespace Party.Controllers
 {
     public class HomeController : Controller
     {

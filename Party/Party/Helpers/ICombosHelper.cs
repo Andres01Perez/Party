@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using ParcialZ.Data.Entities;
+using Party.Data.Entities;
 
-namespace ParcialZ.Helpers
+namespace Party.Helpers
 {
     public interface ICombosHelper
     {

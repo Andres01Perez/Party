@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
-namespace ParcialZ.Models
+namespace Party.Models
 {
     public class TicketViewModel : EditTicketViewModel
     {

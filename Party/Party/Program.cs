@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using ParcialZ.Data;
-using ParcialZ.Helpers;
+using Party.Data;
+using Party.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
