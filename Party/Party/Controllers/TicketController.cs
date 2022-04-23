@@ -107,7 +107,7 @@ namespace ParcialZ.Controllers
                 Document = ticket.Document,
                 Id = ticket.Id,
                 Name = ticket.Name,
-                DateTime = (DateTime)ticket.DateTime,
+                DateTime = DateTime.Now,
                 WasUsed = true,
                 Entrances = await _combosHelper.GetComboEntrancesAsync(),
             };
